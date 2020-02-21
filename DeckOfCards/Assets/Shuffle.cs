@@ -14,8 +14,8 @@ public class Shuffle : MonoBehaviour
     void Update()
     {
         {
-            GameObject go = GameObject.Find("2_of_hearts");
-            Debug.Log(go.Card);
+           //GameObject go = GameObject.Find("2_of_hearts");
+          //Debug.Log(go.Card);
         }
     }
 }
