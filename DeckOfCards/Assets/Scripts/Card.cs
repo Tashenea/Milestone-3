@@ -7,11 +7,25 @@ using System.Threading.Tasks;
 
 public class Card
 {
-    public string Name { get; set; }
 
-    public Card()
+    string Face;
+    string Suit;
+
+    public Card(string cardFace,string cardSuit)
     {
-        Name = "";
+        Face = cardFace;
+        Suit = cardSuit;
     }
+    public override string ToString()
+    {
+        return Face + "of" + Suit;
+    }
+
+    //public string Name { get; set; }
+
+    //public Card()
+    //{
+    //    Name = "";
+    //}
 }
 
